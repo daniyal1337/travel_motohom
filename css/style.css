@@ -9511,8 +9511,8 @@ h6,
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50px; /* Size of the button */
-  height: 50px; /* Size of the button */
+  width: 65px; /* Size of the button */
+  height: 65px; /* Size of the button */
   background-color: #7AB730; /* New background color */
   color: white;
   border-radius: 50%; /* Makes it circular */
@@ -9522,7 +9522,7 @@ h6,
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 28px;
 }
 .whatsapp-btn:hover {
   background-color:  #5A8B25; /* New hover effect color */
@@ -9669,7 +9669,7 @@ h6,
 }
 
 .bg-registration {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/carousel-1.jpg), no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg1.jpg), no-repeat center center;
   background-size: cover;
 }
 
