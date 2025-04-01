@@ -1,4 +1,4 @@
-/******* Bootstrap Theming ********/
+ /******* Bootstrap Theming ********/
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -527,7 +527,8 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 245px;
+  width: 350px;
 }
 
 .img-thumbnail {
@@ -9603,6 +9604,8 @@ h6,
 
 .destination-item img {
   transition: .5s;
+  height: 245px;
+  width: 350px;
 }
 
 .destination-item:hover img {
