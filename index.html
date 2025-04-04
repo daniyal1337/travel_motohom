@@ -111,8 +111,8 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Policies</a>
                             <div class="dropdown-menu">
-                                <a href="https://motohom.co.in/terms-and-conditions" class="dropdown-item">Terms and Conditions</a>
-                                <a href="https://motohom.co.in/privacy-policy" class="dropdown-item">Privacy Policy</a>
+                                <a href="./New 2024 Terms & Conditions .pdf" class="dropdown-item" download>Terms and Conditions</a>
+                                <a href="./MOTOHOM - PRIVACY POLICY - Ver1.0 2024.pdf" class="dropdown-item" download>Privacy Policy</a>
                                 <a href="./condition.pdf" class="dropdown-item" download>Refund Policy</a>
                            
                             </div>
@@ -157,55 +157,55 @@
     
 
     <!-- Booking Start -->
-    <div class="container-fluid booking mt-5 pb-5">
-        <div class="container pb-5">
-            <div class="bg-light shadow" style="padding: 30px;">
-                <div class="row align-items-center" style="min-height: 60px;">
-                    <div class="col-md-10">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="mb-3 mb-md-0">
-                                    <div class="text" id="name" >
-                                        <input type="text" class="form-control p-4 " placeholder="Name" />
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <!-- Replace with your Access Key -->
+        <input type="hidden" name="access_key" value="0b743a4b-87e5-4608-b8e3-51cc62f90e93">
+    
+        <div class="container-fluid booking mt-5 pb-5">
+            <div class="container pb-5">
+                <div class="bg-light shadow" style="padding: 30px;">
+                    <div class="row align-items-center" style="min-height: 60px;">
+                        <div class="col-md-10">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="mb-3 mb-md-0">
+                                        <input type="text" name="name" class="form-control p-4" placeholder="Name" required />
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="mb-3 mb-md-0">
-                                    <div class="text" id="email" >
-                                        <input type="email" class="form-control p-4 " placeholder="Email" />
+                                <div class="col-md-3">
+                                    <div class="mb-3 mb-md-0">
+                                        <input type="email" name="email" class="form-control p-4" placeholder="Email" required />
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="mb-3 mb-md-0">
-                                    <div class="text" id="Phone" >
-                                        <input type="tel" class="form-control p-4 " placeholder="Phone" />
+                                <div class="col-md-3">
+                                    <div class="mb-3 mb-md-0">
+                                        <input type="tel" name="phone" class="form-control p-4" placeholder="Phone" required />
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="mb-3 mb-md-0">
-                                    <select class="custom-select px-4" style="height: 47px;">
-                                        <option selected>Caravan Type</option>
-                                        <option value="1"> T Class Caravan</option>
-                                        <option value="2">U1 Class Caravan </option>
-                                        <option value="3">U2 Class Caravan</option>
-                                        <option value="4"> M Class Caravan</option>
-                                        <option value="5">V3 Class Caravan</option>
-                                        <option value="6">V4 Class Caravan</option>
-                                    </select>
+                                <div class="col-md-3">
+                                    <div class="mb-3 mb-md-0">
+                                        <select name="caravan_type" class="custom-select px-4" style="height: 47px;" required>
+                                            <option value="" selected disabled>Caravan Type</option>
+                                            <option value="T Class">T Class Caravan</option>
+                                            <option value="U1 Class">U1 Class Caravan</option>
+                                            <option value="U2 Class">U2 Class Caravan</option>
+                                            <option value="M Class">M Class Caravan</option>
+                                            <option value="V3 Class">V3 Class Caravan</option>
+                                            <option value="V4 Class">V4 Class Caravan</option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-2">
-                        <button class="btn btn-primary btn-block" type="submit" style="height: 47px; margin-top: -2px;">Submit</button>
+                        <div class="col-md-2">
+                            <button class="btn btn-primary btn-block" type="submit" style="height: 47px; margin-top: -2px;">Submit</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </form>
+    
     <!-- Booking End -->
 
 
@@ -716,31 +716,35 @@
                             <h1 class="text-white m-0">Get Details</h1>
                         </div>
                         <div class="card-body rounded-bottom bg-white p-5">
-                            <form>
+                            <form action="https://api.web3forms.com/submit" method="POST">
+                                <!-- Replace with your Access Key -->
+                                <input type="hidden" name="access_key" value="0b743a4b-87e5-4608-b8e3-51cc62f90e93">
+                            
                                 <div class="form-group">
-                                    <input type="text" class="form-control p-4" placeholder="Name" required="required" />
+                                    <input type="text" name="name" class="form-control p-4" placeholder="Name" required="required" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control p-4" placeholder="Email" required="required" />
+                                    <input type="email" name="email" class="form-control p-4" placeholder="Email" required="required" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="del" class="form-control p-4" placeholder="Number" required="required" />
+                                    <input type="tel" name="number" class="form-control p-4" placeholder="Number" required="required" />
                                 </div>
                                 <div class="form-group">
-                                    <select class="custom-select px-4" style="height: 47px;">
-                                        <option selected>Caravian Type</option>
-                                        <option value="1">T Class</option>
-                                        <option value="2">U1 Class </option>
-                                        <option value="3">U2 Class</option>
-                                        <option value="4">M Class</option>
-                                        <option value="5">V3 Class</option>
-                                        <option value="6">V4 Class</option>
+                                    <select name="caravan_type" class="custom-select px-4" style="height: 47px;" required>
+                                        <option value="" selected disabled>Caravan Type</option>
+                                        <option value="T Class">T Class</option>
+                                        <option value="U1 Class">U1 Class</option>
+                                        <option value="U2 Class">U2 Class</option>
+                                        <option value="M Class">M Class</option>
+                                        <option value="V3 Class">V3 Class</option>
+                                        <option value="V4 Class">V4 Class</option>
                                     </select>
                                 </div>
                                 <div>
                                     <button class="btn btn-primary btn-block py-3" type="submit">Submit</button>
                                 </div>
                             </form>
+                            
                         </div>
                     </div>
                 </div>
@@ -890,11 +894,11 @@
         document.addEventListener("DOMContentLoaded", function () {
             const galleryImages = {
                 "T_Class": ["img/t/t1.jpg","img/t/t2.jpg","img/t/t3.jpg","img/t/t4.jpg","img/t/t5.jpg","img/t/t6.jpg","img/t/t7.jpg"],
-                "U1_Class": ["img/u1/u11.jpg","img/u1/u12.jpg", "img/u1/u13.jpg", "img/u1/u14.jpg"  ],
+                "U1_Class": ["img/u1/u11.jpg","img/u1/u12.jpg", "img/u1/u13.jpg", "img/u1/u14.jpg","img/V3/v35.png"  ],
                 "U2_Class": ["img/u2/u21.jpg","img/u2/u22.jpg", "img/u2/u23.jpg", "img/u2/u24.jpg", "img/u2/u25.jpg","img/u2/u26.jpg"   ],
-                "M_Class": ["img/m/m1.jpg","img/m/m2.jpg","img/m/m3.jpg","img/m/m6.jpg" ],
-                "V3_Class":["img/V1_class.jpg","img/u1/u12.jpg", "img/u1/u13.jpg", "img/u1/u14.jpg"  ],
-                "V4_Class": ["img/V2_class.jpg","img/u2/u22.jpg", "img/u2/u23.jpg", "img/u2/u24.jpg", "img/u2/u25.jpg","img/u2/u26.jpg"   ],
+                "M_Class": ["img/m/m1.jpg","img/m/m2.jpg","img/m/m3.jpg","img/m/m6.jpg","img/V3/v35.png","img/t/t5.jpg" ],
+                "V3_Class":["img/V3/v31.png","img/V3/v32.png","img/V3/v33.png","img/V3/v34.png","img/V3/v35.png"],
+                "V4_Class": ["img/v4/v41.png","img/V3/v31.png","img/v4/v42.png","img/v4/v43.png","img/v4/v44.png","img/v4/v45.png", ],
             };
         
             let currentImages = [];
